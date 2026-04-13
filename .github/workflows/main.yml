@@ -40,4 +40,4 @@ jobs:
           sudo docker rm keen_burnell || true
           sudo docker stop lab_app || true
           sudo docker rm lab_app || true
-          sudo docker run -d --name lab_app -p 8080:8080 sokolovapolina/lab5-app:latest
+          sudo docker run -d --name lab_app -p 8080:80 sokolovapolina/lab5-app:latest
